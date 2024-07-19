@@ -8,6 +8,7 @@
     "resetdb": "knex migrate:rollback && knex migrate:latest && knex seed:run"
   },
   "dependencies": {
+    "express": "^4.19.2",
     "knex": "^2.0.0",
     "sqlite3": "^5.0.8"
   },
@@ -16,7 +17,7 @@
     "cross-env": "^7.0.3",
     "eslint": "^8.15.0",
     "jest": "^28.1.0",
-    "nodemon": "^2.0.16",
+    "nodemon": "^2.0.22",
     "supertest": "^6.2.3"
   },
   "repository": {
